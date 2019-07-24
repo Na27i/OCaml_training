@@ -1,2 +1,2 @@
-# Ocaml_training
-Ocamlの学習
+# OCaml_training
+OCamlの学習
