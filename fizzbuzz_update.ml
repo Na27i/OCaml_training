@@ -9,11 +9,12 @@ let fizz_buzz n =
         (string_of_int n) ^ " "
 
 let new_line n =
-  if n mod 10 = 0 then
+  if n mod 20 = 0 then
     print_newline()
-
+  
 let () =
-    for i = 1 to 100 do
+    let num = (int_of_string (read_line();)) in
+    for i = 1 to num do
         print_string (fizz_buzz i);
         (new_line i)
     done
